@@ -23,11 +23,8 @@ public class Generador {
 
         // 1. ENTRADA DE DATOS (con validación)
         int instancias = leerEntero(sc,
-                "Número de instancias a lanzar (mínimo " + MINIMO_INSTANCIAS + "): ",
-                MINIMO_INSTANCIAS);
-        int cadenasPorInstancia = leerEntero(sc,
-                "Número de cadenas que generará cada instancia: ",
-                1);
+                "Número de instancias a lanzar (mínimo " + MINIMO_INSTANCIAS + "): ", MINIMO_INSTANCIAS);
+        int cadenasPorInstancia = leerEntero(sc, "Número de cadenas que generará cada instancia: ", 1);
 
         // 2. PREPARAR EL COMANDO para ejecutar Cadenas
         // Ruta del ejecutable "java" de la misma JDK con la que se está ejecutando este programa
